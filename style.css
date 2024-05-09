@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px black dashed;
+    border-radius: 25px;
+    width: 440px;
+    height: 200px;
+    text-align: start;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.image {
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.arrow {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 90px;
+}
